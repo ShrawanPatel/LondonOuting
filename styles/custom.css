@@ -78,6 +78,14 @@
 	}
 
 
+/*London Maps*/
+
+	.maps
+	{
+		height: 30em;
+		width: 100%;
+	}
+
 
 /*Carousel*/
 	.carousel-inner img

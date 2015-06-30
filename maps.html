@@ -45,7 +45,7 @@
 			<ul class="nav navbar-nav">
 				<li><a href="index.html">Home</a></li>
 				<li><a href="london.html">London Info</a></li>
-				<li><a href="maps.html">Useful Maps</a></li>
+				<li class="active"><a href="maps.html">Useful Maps</a></li>
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Outings <b class="caret"></b></a>
 					<ul class="dropdown-menu">
@@ -66,33 +66,110 @@
 
 	<div class="page-header" id="banner">
 		<div class="container">
-			 <h1 id="bannertext">About</h1>
+			 <h1 id="bannertext">Maps</h1>
 		</div>
 	</div>
 
-<!-- About London Outing -->
+<!-- About London -->
 	<section>
-	<div class="container">
-			<div class="col-md-10 col-md-push-1 text-center">
-				<h2>About London Outing</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius laboriosam, repellat officia deserunt optio odit esse debitis tempore ipsa quo quibusdam vitae in hic, temporibus libero cum tenetur. Nemo nostrum eveniet quia quasi, ea expedita in, natus aut, fugit quidem, laudantium. Consectetur rem eum sunt minima! Eveniet, suscipit, eius. Id!</p>	
-			</div>
+		<div class="container text-center">
+			<h2>London Maps</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius laboriosam, repellat officia deserunt optio odit esse debitis tempore ipsa quo quibusdam vitae in hic, temporibus libero cum tenetur. Nemo nostrum eveniet quia quasi, ea expedita in, natus aut, fugit quidem, laudantium. Consectetur rem eum sunt minima! Eveniet, suscipit, eius. Id!</p>	
 		</div>
 	</section>
 
+<!-- London Maps	 -->
 
-<!-- About Me -->
+	<section class="border">
+			<div class="container">
+				<div class="text-center">
+					<h3>Maps</h3>
+				</div>
 
-	<section class="border jumbotron">
-		<div class="container">
-			<div class="col-md-10 col-md-push-1 text-center">
-				<h2>About Me</h2>
-				<img id="profilepic" src="images/shrawan.jpg" alt="Shrawan Patel">
-				<h3>Shrawan Patel</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius laboriosam, repellat officia deserunt optio odit esse debitis tempore ipsa quo quibusdam vitae in hic, temporibus libero cum tenetur. Nemo nostrum eveniet quia quasi, ea expedita in, natus aut, fugit quidem, laudantium. Consectetur rem eum sunt minima! Eveniet, suscipit, eius. Id!</p>	
+<!-- Map Thumbnails -->				
+		
+			<!-- Tube Map -->
+
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<div class="thumbnail"> 
+						<img data-toggle="modal" href="#tubemap" src="images/tubemap.gif" alt="">
+						<div class="caption">
+							<h3>London Tube Map</h3>
+							<p>
+								<a data-toggle="modal" href="#tubemap" class="btn btn-default">View</a>
+								<a href="#" class="btn btn-primary">Download</a>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="modal fade" id="tubemap">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+								<h4 class="modal-title">London Tube Map</h4>
+							</div>
+							<div class="modal-body">
+								<div>
+									<iframe class="maps" src="https://tfl.gov.uk/tfl/syndication/widgets/tubemap/default-search.html"></iframe>
+								</div>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								<button type="button" class="btn btn-primary">Download</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			<!-- Street Map -->
+
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<div class="thumbnail">
+						<img src="images/eastlondon.jpg" alt="">
+						<div class="caption">
+							<h3>East London</h3>
+							<p>
+								...
+							</p>
+							<p>
+								<a href="#" class="btn btn-default">Action</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<div class="thumbnail">
+						<img src="images/vanda.jpg" alt="">
+						<div class="caption">
+							<h3>V&amp;A</h3>
+							<p>
+								...
+							</p>
+							<p>
+								<a href="#" class="btn btn-default">Action</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<div class="thumbnail">
+						<img src="images/hydepark.jpg" alt="">
+						<div class="caption">
+							<h3>Hyde Park</h3>
+							<p>
+								...
+							</p>
+							<p>
+								<a href="#" class="btn btn-default">Action</a>
+							</p>
+						</div>
+					</div>
+				</div>
 			</div>
-		</div>
-	</section>
+		</section>
+
 
 <!-- Footer -->
 			<section id="footer">
